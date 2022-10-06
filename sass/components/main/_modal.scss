@@ -247,3 +247,10 @@
     padding: 10px 52px;
 
 }
+
+.form-button:hover,
+.form-button:focus,
+.modal-button:hover,
+.modal-button:focus {
+    background-color: $hero-btn-active-color;
+}

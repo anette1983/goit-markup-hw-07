@@ -15,36 +15,34 @@
     background-position: center;
     background-size: cover;
 
+    &__text {
+    
+            margin-bottom: 30px;
+            width: 696px;
+            margin-right: auto;
+            margin-left: auto;
+    
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 1.4;
+            letter-spacing: 0.06em;
+    
+            text-transform: uppercase;
+    
+            color: $light-text-color;
+        }
+    &__button {
+        padding: 10px 32px;
+
+        &:hover,
+        &:focus {
+            background-color: $hero-btn-active-color;
+        }
+    }
+
 }
 
-.hero-text {
 
-    margin-bottom: 30px;
-    width: 696px;
-    margin-right: auto;
-    margin-left: auto;
 
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.4;
-    letter-spacing: 0.06em;
 
-    text-transform: uppercase;
 
-    color: $light-text-color;
-}
-
-.hero-button {
-
-    padding: 10px 32px;
-
-}
-
-.hero-button:hover,
-.hero-button:focus,
-.form-button:hover,
-.form-button:focus,
-.modal-button:hover,
-.modal-button:focus {
-    background-color: $hero-btn-active-color;
-}
