@@ -112,7 +112,7 @@
 }
 
 
-.form-button {
+.subscribe-button {
 
     display: inline-flex;
     align-items: center;
@@ -135,6 +135,11 @@
 
 
 }
+
+.form-button:hover,
+.form-button:focus {
+        background-color: $hero-btn-active-color;
+    }
 
 .button-icon {
     margin-left: 10px;
