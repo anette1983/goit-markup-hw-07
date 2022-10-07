@@ -1,8 +1,7 @@
 
 .sns {
-    // display: flex;
-    // justify-content: center;
-    @include flex((), center, ());
+    display: flex;
+    justify-content: center;
 
 }
 

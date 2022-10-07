@@ -8,7 +8,7 @@
         height: 120px;
         margin-bottom: 30px;
         border-radius: 4px;
-        @include flex((), center, center);
+        @extend %centeredFlex;
     }
     &__subtitle {
         margin-bottom: 10px;color: 

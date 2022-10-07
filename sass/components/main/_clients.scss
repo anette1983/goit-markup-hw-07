@@ -1,7 +1,6 @@
 .clients__list {
-    // display: flex;
-    // justify-content: center;
-    @include flex((), center, ());
+    display: flex;
+    justify-content: center;
 }
 
 .clients__item {

@@ -83,9 +83,8 @@
 
 
 .header-contacts__link {
-    // display: flex;
-    // align-items: center;
-    @include flex((), (), center);
+    display: flex;
+    align-items: center;
     color: $primary-text-color;
     font-weight: 500;
     line-height: 1.14;
