@@ -16,7 +16,8 @@
 
 }
 
-.sns-list {
+.footer-sns__list {
+//    то же что в карточках + марджин
     display: flex;
     margin-top: 20px;
 }
@@ -73,11 +74,7 @@
     color: $accent-color;
 }
 
-.sns-title {
-
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
+.sns__subtitle {
     color: $light-text-color;
 }
 

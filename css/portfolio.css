@@ -57,6 +57,13 @@ img {
   color: #212121;
 }
 
+.subtitle {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 .hidden {
   position: absolute;
   width: 1px;
@@ -336,7 +343,7 @@ img {
   /* в макете указано 70, но отмеряет не от конца текста, а есть еще доп зазор */
 }
 
-.sns-list {
+.footer-sns__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -390,10 +397,7 @@ img {
   color: #2196f3;
 }
 
-.sns-title {
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
+.sns__subtitle {
   color: #ffffff;
 }
 
