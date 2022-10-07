@@ -64,6 +64,18 @@ img {
   text-transform: uppercase;
 }
 
+.checkbox, .modal__close-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .hidden {
   position: absolute;
   width: 1px;
@@ -113,8 +125,8 @@ img {
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
   font-size: 26px;
+  font-weight: 700;
   line-height: 1.2;
 }
 .logo__accent {
@@ -219,8 +231,8 @@ img {
   width: 696px;
   margin-right: auto;
   margin-left: auto;
-  font-weight: 900;
   font-size: 44px;
+  font-weight: 900;
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -278,15 +290,6 @@ img {
   position: absolute;
   top: 8px;
   right: 8px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   width: 30px;
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -308,6 +311,7 @@ img {
 .form__title {
   margin-bottom: 12px;
   font-size: 20px;
+  font-weight: 700;
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
@@ -393,15 +397,6 @@ img {
 
 .checkbox {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   margin-bottom: 30px;
@@ -433,8 +428,8 @@ img {
 .checkbox__link {
   /* display: inline-block; */
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.7;
   letter-spacing: 0.03em;
   -webkit-text-decoration-line: underline;

@@ -41,9 +41,7 @@
     position: absolute;
     top: 8px;
     right: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %centeredFlex;
 
     width: 30px;
     height: 30px;
@@ -68,8 +66,7 @@
     text-align: left;
     &__title {
         margin-bottom: 12px;
-        font-size: 20px;
-        line-height: 1.15;
+        @include font(20px, 700, 1.15);
         text-align: center;
         letter-spacing: 0.03em;
         color: $secondary-text-color;
@@ -146,9 +143,7 @@
 
 .checkbox {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %centeredFlex;
     flex-wrap: nowrap;
     margin-bottom: 30px;
     &__input {
@@ -182,11 +177,7 @@
     &__link {
         /* display: inline-block; */
         font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7;
-
-
+        @include font(14px, 400, 1.7);
         letter-spacing: 0.03em;
         text-decoration-line: underline;
 

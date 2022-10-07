@@ -1,6 +1,7 @@
 .clients__list {
-    display: flex;
-    justify-content: center;
+    // display: flex;
+    // justify-content: center;
+    @include flex((), center, ());
 }
 
 .clients__item {
@@ -13,9 +14,7 @@
 }
 
 .clients__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %centeredFlex;
     width: 100%;
     height: 100%;
     color: $icon-color;
